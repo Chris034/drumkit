@@ -1,0 +1,59 @@
+
+body { 
+    background: url(https://i.imgur.com/b9r5sEL.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+.column {
+  border-style: solid;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 0.8rem;
+  width: 3.5rem;
+  height: 5rem;
+  font-size: 1.7rem;
+  border-color: black;
+  color: white;
+  border-width: 0.5rem;
+  transition: all .07s ease;
+  
+}
+
+.row {
+  border: 0px solid turquoise;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content : space-between;
+}
+
+.drum-section {
+  padding-top: 25rem;
+
+}
+
+.card {
+  padding: 1rem .5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+
+
+}
+
+.playing {
+  transform:scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
